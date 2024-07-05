@@ -1,27 +1,22 @@
-# Tp6Ebankingfrontd
+<h2>Application Digital Banking Angular</h2>
+<p>Creating an application for digital banking. Each account belongs to a customer and can undergo debit, credit, or transfer operations. There are two types of accounts: current accounts and savings accounts.
+To create this application, we will:
+Create a Spring Boot project.
+Define JPA entities (Customer, BankAccount, SavingAccount, CurrentAccount, AccountOperation).
+Create JPA Repository interfaces based on Spring Data.
+Test the DAO layer.
+Create the service layer and DTOs.
+Set up the RestController.
+Test the Restful web services.
+Document the application with Swagger and Spring Boot 3.
+Secure the application with an authentication system based on Spring Security and JSON Web Token.</p>
+<h4>Login</h4>
+<img src="Captures/img.png" />
+<h4>User Interface</h4>
+<img src="Captures/img_ui.png" />
+<h4>Admin Interface</h4>
+<h5>Search Customers</h5>
+<img src="Captures/img_2.png" />
+<h5>Create New Operations</h5>
+<img src="Captures/img_4.png" />
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
